@@ -1,0 +1,11 @@
+GeoLog is a new kind of location tracker which changes tracking characteristics based on where you are and what you are doing.
+
+On foot, you travel slower than by car, and you may not want to gather location data as often. If you're standing still, why track location at all - it's just a waste of power. If you're on a photo walk, you might only want to track location while walking, and not when doing anything else - like driving to the where the walk starts. When on a long trip, you may wish to use a less accurate low power tracking solution, while on a short trip you may prefer tracking as precisely as possible. This is all profile-based and highly configurable. Based on Google's "fused location provider".
+
+For a longer description, see the app's listing on Google Play: https://play.google.com/store/apps/details?id=eu.chainfire.geolog
+
+This is a low priority side project for me. It'll see updates when I need them, or when you submit useful improvements
+
+I've used Eclipse+ADT for this project. Project requires you set up the Google Play Service library as well (not included)
+
+LICENSE is Apache License, Version 2.0

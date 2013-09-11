@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GeoLog</string>
+    
+    <string name="generic_ok">OK</string>
+    <string name="generic_cancel">Cancel</string>
+    <string name="generic_save">Save</string>
+    <string name="generic_load">Load</string>
+    <string name="generic_close">Close</string>
+    <string name="generic_clear">Clear</string>
+    <string name="generic_continue">Continue</string>
+    <string name="generic_delete">Delete</string>
+    <string name="generic_disable">Disable</string>
+    
+    <string name="section_profiles">Profiles</string>
+    <string name="section_logs">Logs</string>
+    <string name="section_settings">Settings</string>
+    
+    <string name="menu_add">Add</string>
+    <string name="menu_edit">Add</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_clear">Delete</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_export">Export</string>
+    <string name="menu_done">Done</string>
+    <string name="menu_cancel">Cancel</string>
+    
+    <string name="settings_tap_xda">Tap to visit XDA thread</string>
+    <string name="settings_upgrade">Upgrade to Pro</string>
+    <string name="settings_upgrade_description">Support development and unlock extra features</string>
+    
+    <string name="settings_category_units">Units</string>
+    <string name="settings_units_caption">Units</string>
+    <string name="settings_units_popup">Select units</string>
+    <string name="settings_units_metric">Metric</string>
+    <string name="settings_units_imperial">Imperial</string>
+    
+    <string name="settings_category_market">Chainfire</string>
+    <string name="settings_market">All my apps</string>
+    <string name="settings_market_description">View all my apps available on Google Play</string>
+    
+    <string name="follow_pref_title">Follow me on Twitter or G+</string>
+    <string name="follow_pref_desc">Stay up to date with my developments</string>
+    <string name="follow_popup_title">Follow me</string>
+    <string name="follow_popup_desc">Stay up to date with my developments, follow me on Twitter or Google Plus</string>
+    <string name="follow_gplus">Google Plus</string>
+    <string name="follow_twitter">Twitter</string>
+    <string name="follow_nothanks">No thanks</string>   
+    
+    <string name="service_title">GeoLog</string>
+    <string name="service_waiting">Waiting for location update ...</string>
+    
+    <string name="profile_name_off">Off</string>
+    <string name="profile_name_low_power_slow">Low Power / Slow</string>
+    <string name="profile_name_low_power_fast">Low Power / Fast</string>
+    <string name="profile_name_low_power_fixed">Low Power / Fixed</string>
+    <string name="profile_name_high_accuracy_slow">High Accuracy / Slow</string>
+    <string name="profile_name_high_accuracy_fast">High Accuracy / Fast</string>
+    <string name="profile_name_high_accuracy_fixed">High Accuracy / Fixed</string>
+    <string name="profile_name_photo_walk_low_power">Photo Walk LP</string>
+    <string name="profile_name_photo_walk_high_accuracy">Photo Walk HA</string>
+    
+    <string name="row_logs_time" formatted="false"><![CDATA[<b>Time:</b> %s]]></string>
+    <string name="row_logs_activity" formatted="false"><![CDATA[<b>Activity:</b> %s ~ %d%%]]></string>
+    <string name="row_logs_battery" formatted="false"><![CDATA[<b>Battery:</b> %d%%%s]]></string>
+    <string name="row_logs_location_metric" formatted="false"><![CDATA[<b>Location:</b> %.5f, %.5f ~ %.0fm]]></string>
+    <string name="row_logs_location_imperial" formatted="false"><![CDATA[<b>Location:</b> %.5f, %.5f ~ %.0fft]]></string>
+    
+    <string name="row_profiles_name" formatted="false"><![CDATA[%s]]></string>
+    
+    <string name="profile_delete_confirm" formatted="false"><![CDATA[Delete <b>%s</b> ?]]></string>
+        
+    <string name="profile_add_title">Add Profile</string>
+    <string name="profile_add_name">New Profile</string>
+    <string name="profile_add_copy" formatted="false"><![CDATA[Copy <b>%s</b>]]></string>
+    
+    <string name="profile_preference_name_title">Name</string>
+    <string name="profile_preference_name_popup">Enter name</string>    
+    <string name="profile_preference_reduce_accuracy_delay_title">Delay before reducing accuracy</string>
+    <string name="profile_preference_reduce_accuracy_delay_popup">Enter seconds</string>
+    <string name="profile_preference_caption_unknown">Activity: Unknown</string>
+    <string name="profile_preference_caption_still">Activity: Still</string>
+    <string name="profile_preference_caption_foot">Activity: On Foot</string>
+    <string name="profile_preference_caption_bicycle">Activity: On Bicycle</string>
+    <string name="profile_preference_caption_vehicle">Activity: In Vehicle</string>    
+    <string name="profile_preference_accuracy_title">Location tracking mode</string>
+    <string name="profile_preference_accuracy_popup">Select tracking mode</string>
+    <string name="profile_preference_accuracy_none">Disabled</string>    
+	<string name="profile_preference_accuracy_low">Low accuracy - Low power</string>    
+	<string name="profile_preference_accuracy_high">High accuracy - High power</string>    
+    <string name="profile_preference_location_interval_title">Location tracking interval</string>
+    <string name="profile_preference_location_interval_popup">Enter seconds</string>
+    <string name="profile_preference_activity_interval_title">Activity tracking interval</string>
+    <string name="profile_preference_activity_interval_popup">Enter seconds</string>
+    <string name="profile_preference_format_disabled" formatted="false">Disabled</string>
+    <string name="profile_preference_format_interval" formatted="false">%d minutes, %d seconds</string>
+    <string name="profile_preference_format_interval_hours" formatted="false">%d hours, %d minutes, %d seconds</string>
+    
+    <string name="export_export">Export</string>
+    <string name="export_exporting">Exporting ...</string>
+    <string name="export_complete"><![CDATA[Export complete!<br><br>You can find the exported file in the <b>GeoLog</b> folder on your device\'s storage]]></string>
+    <string name="export_failed">A problem occurred while exporting!</string>
+    
+    <string name="export_preference_title">Export</string>
+    <string name="export_preference_title_records">Export - %d records</string>
+    <string name="export_preference_calculating">Calculating ...</string>
+    
+    <string name="export_preference_format_title">File format</string>
+    <string name="export_preference_format_popup">Select file format</string>
+    <string name="export_preference_format_gpx">GPX</string>
+    <string name="export_preference_format_kml">KML</string>
+    <string name="export_preference_track_merge_gap_title">Merge track gaps smaller than ...</string>
+    <string name="export_preference_track_merge_gap_popup">Enter seconds</string>
+    
+    <string name="export_preference_datefilter_category">Date filter</string>
+    <string name="export_preference_date_start_title">Start date and time</string>
+    <string name="export_preference_date_start_popup">Select date and time</string>
+    <string name="export_preference_date_end_title">End date and time</string>
+    <string name="export_preference_date_end_popup">Select date and time</string>
+    <string name="export_preference_date_disabled">Disabled</string>    
+    
+    <string name="export_preference_trackfilter_category">Track filter</string>
+    <string name="export_preference_track_min_points_title">Minimum number of points in track</string>
+    <string name="export_preference_track_min_time_title">Minimum time span of track</string>
+    <string name="export_preference_track_min_distance_title">Minimum distance covered by track</string>
+    <string name="export_preference_track_min_points_popup">Enter points</string>
+    <string name="export_preference_track_min_time_popup">Enter seconds</string>
+    
+    <string name="export_preference_lowpowerfilter_category">Accuracy filter: low power</string>
+    <string name="export_preference_highaccuracyfilter_category">Accuracy filter: high accuracy</string>
+    <string name="export_preference_accuracy_popup_meters">Enter meters</string>
+    <string name="export_preference_accuracy_popup_feet">Enter feet</string>
+    <string name="export_preference_accuracy_format_meters">%s meters</string>
+    <string name="export_preference_accuracy_format_feet">~ %s feet</string>
+    
+    <string name="profiles_empty">No profiles to display</string>
+    <string name="logs_empty">No logs to display</string>
+    
+    <string name="logs_clear_confirm"><![CDATA[Clear all data ?]]></string>
+    <string name="logs_clear_clearing">Clearing ...</string>
+</resources>

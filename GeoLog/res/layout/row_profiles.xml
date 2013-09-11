@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="56dp">
+    
+	<TextView
+	    android:id="@+id/name"
+	    android:layout_width="wrap_content"
+	    android:layout_height="56dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginLeft="16dp"
+	    android:gravity="center_vertical"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<ImageView
+	    android:id="@+id/delete"
+	    android:layout_width="56dp"
+	    android:layout_height="56dp"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:layout_marginRight="0dp"
+	    android:scaleType="center"
+	    android:src="@drawable/ic_action_delete"
+	    android:clickable="true"
+	    android:background="?android:attr/selectableItemBackground" />
+
+	<ImageView
+	    android:id="@+id/edit"
+	    android:layout_width="56dp"
+	    android:layout_height="56dp"
+	    android:layout_centerVertical="true"
+	    android:layout_toLeftOf="@+id/delete"
+	    android:scaleType="center"
+	    android:src="@drawable/ic_action_edit"
+	    android:clickable="true"
+	    android:background="?android:attr/selectableItemBackground" />
+
+	<ImageView
+	    android:id="@+id/timer"
+	    android:layout_width="56dp"
+	    android:layout_height="56dp"
+	    android:layout_centerVertical="true"
+	    android:layout_toLeftOf="@+id/edit"
+	    android:scaleType="center"
+	    android:src="@drawable/ic_action_timer"
+	    android:clickable="true"
+	    android:background="?android:attr/selectableItemBackground" />			
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.chainfire.geolog"
+    android:versionCode="50"
+    android:versionName="0.50" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:name="eu.chainfire.geolog.Application"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="eu.chainfire.geolog.ui.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="eu.chainfire.geolog.ui.ProfileActivity"
+            android:label="@string/app_name"
+            android:exported="false" />
+        
+        <receiver android:name="eu.chainfire.geolog.service.BootCompleteReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="eu.chainfire.geolog.ui.ExportActivity"
+            android:label="@string/app_name"
+            android:exported="false" />
+        
+        <provider
+            android:name="eu.chainfire.geolog.data.LogsProvider"
+            android:authorities="eu.chainfire.geolog.logsprovider"
+            android:exported="false" />
+        
+        <provider
+            android:name="eu.chainfire.geolog.data.ProfilesProvider"
+            android:authorities="eu.chainfire.geolog.profilesprovider"
+            android:exported="false" />
+        
+        <receiver android:name="eu.chainfire.geolog.service.BootCompleteReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+        
+        <service
+            android:name="eu.chainfire.geolog.service.BackgroundService"
+            android:exported="false" />
+    </application>
+
+</manifest>
